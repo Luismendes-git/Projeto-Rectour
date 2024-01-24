@@ -1,0 +1,189 @@
+/*Gerais*/
+body{
+    font-family: 'roboto', sans-serif;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p, li{
+    color: #044fa1;
+    font-size: 15px;
+ 
+}
+
+main{
+    margin-top: 60px;
+    background-color: #f9f9f9;
+    flex: 1 1 0;
+}
+
+/* Barra de navegção*/
+
+header, .navbar{
+    background-color: #044fa1;
+    
+    
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 90px;
+    
+}
+
+.navbar-brand{
+    padding: 0;
+    color: #fff;
+   
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.navbar-nav a{
+    color: #fff;
+}
+
+#navbar-linkes a {
+    color: #fff;    
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+
+/* formulario*/
+
+form{
+    
+    border-radius: 15px;
+}
+
+.container{
+    display: flex;
+    align-items:self-start;
+    gap: 300px;
+}
+
+#box-form{
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+input{
+    margin: 10px;
+    width: 300px;
+    text-align: left;
+    border: solid;
+    
+}
+
+textarea{
+    padding: 60px 70px;
+    border: solid;
+}
+
+.btn-enviar{
+    width: auto;
+    background-color: #044fa1;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.col-12{ 
+    margin-top: 150px;
+    color: #044fa1 ;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+/*footer*/
+
+#footer-area {
+    display:flex;
+    background-color: #044fa1;
+    
+    
+}
+
+
+
+.logo-footer {
+    width: 90px;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-list i {
+    color: #fff;
+
+}
+
+.footer-list li {
+    color: #fff;
+}
+
+.footer-list p {
+    color: #fff;
+}
+
+#footer-copyrigh {
+    background-color: #044fa1;
+    color: #fff;
+    text-align: center;
+    opacity: 0.8;
+}
+
+/* responsivo*/
+
+@media(max-width:412px) {
+
+    main{
+        background-color: #f9f9f9;
+    }
+
+    #footer-area {
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        background-color: #044fa1;
+        
+    }
+
+    .container{
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+}
